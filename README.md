@@ -16,9 +16,16 @@
 
 ## Benchmarks
 
-Currently best results
+Current best results
 
 ### Idle Power Consumption
+
+Minimal brightness / Bluetooth & NFC & card reader disabled in BIOS / wireless active / Mate Desktop without running apps.
+User story:  [2], starting additionally firefox using three tabs, closing firefox and wget finished
+* 3.5W - running a wget download
+* 4.5W - additionally starting firefox
+* 2.5W - wget download has finished, firefox closed
+* avg 3.9W
 
 ```
 stefan@melisandre:~/word2vec$ sudo powerstat
