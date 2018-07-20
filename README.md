@@ -2,11 +2,11 @@
 
 ## Specifications
 
-## BIOS
+## BIOS Settings
 
-## Installations
+## Installation
 
-## Tests
+## Benchmarks
 
 ## Tweaks
 
