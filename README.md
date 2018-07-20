@@ -16,9 +16,22 @@
 
 ## Benchmarks
 
-Currently best results
+Current best results
 
 ### Idle Power Consumption
+
+Scenario
+* Minimal brightness 
+* Bluetooth & NFC & card reader disabled in BIOS 
+* wireless/sound enabled
+* mate desktop loaded without running apps
+
+User story
+* 3.5W - running a wget download
+* 4.5W - additionally starting firefox
+* 2.5W - wget download has finished, firefox closed
+
+**3.9W on average**
 
 ```
 stefan@melisandre:~/word2vec$ sudo powerstat
