@@ -3,6 +3,7 @@
 ## Hardware Specs
 
 [Output of inxi -F](inxi.txt)
+[Kernel Boot Log](dmesg.txt)
 
 ## BIOS Settings
 
