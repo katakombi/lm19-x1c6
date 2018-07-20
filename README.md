@@ -24,6 +24,7 @@ Scenario
 * Minimal brightness 
 * Bluetooth & NFC & card reader disabled in BIOS 
 * wireless/sound enabled
+* thunderbolt enabled (with BIOS thunderbolt power management enabled, too)
 * mate desktop loaded without running apps
 
 User story
