@@ -6,11 +6,23 @@
 
 [Kernel Boot Log](dmesg.txt)
 
-## BIOS Settings
+## BIOS Updates
+
+* Download latest [BIOS images](https://pcsupport.lenovo.com/de/en/products/LAPTOPS-AND-NETBOOKS/THINKPAD-X-SERIES-LAPTOPS/THINKPAD-X1-CARBON-6TH-GEN-TYPE-20KH-20KG/downloads/DS502282). I am using `1.25`.
+* Use [eltorino](https://aur.archlinux.org/packages/geteltorito/) 
+```
+geteltorito -o x1c2018-122.img n23ur06w.iso
+sudo dd if=x1c2018-122.img of=/dev/sdX bs=512K
+```
+* * Reboot from USB and follow instructions
+
+### BIOS Settings
+
+
 
 ## Installation
 
-## Software Tweaks
+## Software Fixes
 
 ## Hardware Tweaks
 
