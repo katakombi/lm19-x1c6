@@ -2,7 +2,7 @@
 
 ## Hardware Specs
 
-[Output of inxi -F](inxi.txt)
+[Output](inxi.txt) of `inxi -F`
 
 [Kernel Boot Log](dmesg.txt)
 
