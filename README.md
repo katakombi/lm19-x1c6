@@ -2,15 +2,27 @@
 
 ## Hardware Specs
 
-[Output of inxi -F](inxi.txt)
+[Output](inxi.txt) of `inxi -F`
 
 [Kernel Boot Log](dmesg.txt)
 
-## BIOS Settings
+## BIOS Updates
+
+* Download latest [BIOS images](https://pcsupport.lenovo.com/de/en/products/LAPTOPS-AND-NETBOOKS/THINKPAD-X-SERIES-LAPTOPS/THINKPAD-X1-CARBON-6TH-GEN-TYPE-20KH-20KG/downloads/DS502282) - I am using `1.25`.
+* Use [eltorino](https://aur.archlinux.org/packages/geteltorito/) 
+```
+geteltorito -o x1c2018-125.img n23ur08w.iso
+sudo dd if=x1c2018-125.img of=/dev/sdb bs=512K
+```
+* Reboot from USB and follow instructions
+
+### BIOS Settings
+
+
 
 ## Installation
 
-## Software Tweaks
+## Software Fixes
 
 ## Hardware Tweaks
 
@@ -24,12 +36,13 @@ Scenario
 * Minimal brightness 
 * Bluetooth & NFC & card reader disabled in BIOS 
 * wireless/sound enabled
+* thunderbolt enabled (with BIOS thunderbolt power management enabled, too)
 * mate desktop loaded without running apps
 
 User story
 * 3.5W - running a wget download
-* 4.5W - additionally starting firefox
-* 2.5W - wget download has finished, firefox closed
+* 4.5W - additionally starting firefox using three tabs
+* 2.5W - wget download has finished, closing firefox
 
 **3.9W on average**
 
