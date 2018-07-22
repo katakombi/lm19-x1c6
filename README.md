@@ -31,6 +31,15 @@ sudo dd if=x1c2018-125.img of=/dev/sdb bs=512K
 
 ## Benchmarks
 
+NVM SSD `LENSE20512GMSP34MEAT2TA` from Lenovo:
+* 1T/Sec sequencial writes (10M chunks)
+* 2T/Sec sequential reads (10M chunks)
+
+Geekbench4
+
+* On AC (performance governor) - Single Core: 5250 / Multi Core: 17600
+* On Battery (powersave governor) - Single Core: 3250 / Multi Core: 11500
+
 Current best results
 
 ### Idle Power Consumption
