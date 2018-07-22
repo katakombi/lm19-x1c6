@@ -51,10 +51,10 @@ Scenario
 * mate desktop loaded without running apps
 
 Use cases
-* 2.5W - wget download has finished, closing firefox
+* 2.5W - nothing
 * 3.5W - running a wget download
-* 4.5W - additionally starting firefox using three tabs
-* 5.5W - watching youtube fhd full screen
+* 4.5W - +firefox using three tabs
+* 5.5W - +watching youtube fhd full screen
 
 ## Sources
 
