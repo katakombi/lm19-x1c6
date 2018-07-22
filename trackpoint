@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Reinitialize Touch Pad to fix non-working Track Point
+
+case $1 in
+    post)
+	echo -n none > /sys/devices/platform/i8042/serio1/drvctl
+	echo -n reconnect > /sys/devices/platform/i8042/serio1/drvctl
+	su -c "sleep 1; synclient TapButton1=1 TapButton2=2 TapButton3=3"
+;;
+esac

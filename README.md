@@ -25,7 +25,7 @@ sudo dd if=x1c2018-125.img of=/dev/sdb bs=512K
 ## Software Fixes
 
 * CPU throttling fix + undervolting using this [/etc/rc.local](rc.local)
-* ...
+* Put a [script](trackpad) in `/lib/systemd/system-sleep/` to reinitialize the touch pad after resume from suspend or else the track point stops working
 
 ## Hardware Tweaks
 
