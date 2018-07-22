@@ -19,7 +19,7 @@ sudo dd if=x1c2018-125.img of=/dev/sdb bs=512K
 ```
 * Reboot from USB and follow instructions
 
-### BIOS Settings
+## BIOS Settings
 
 
 
