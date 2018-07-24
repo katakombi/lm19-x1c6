@@ -73,3 +73,5 @@ https://www.reddit.com/r/thinkpad/comments/8rt1fr/running_linux_on_the_x1_carbon
 https://www.reddit.com/r/thinkpad/comments/861360/x1_carbon_6th_gen_seems_to_be_bios_locked_to_33w/
 
 https://www.reddit.com/r/thinkpad/comments/8aqy5g/x1c6_on_linux_idle_29w_real_battery_life_on_light/
+
+https://github.com/fiji-flo/x1carbon2018s3
