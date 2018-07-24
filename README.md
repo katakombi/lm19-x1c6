@@ -19,7 +19,7 @@ sudo dd if=x1c2018-125.img of=/dev/sdb bs=512K
 ```
 * Reboot from USB and follow instructions
 
-### BIOS Settings
+## BIOS Settings
 
 
 
@@ -51,10 +51,10 @@ Scenario
 * mate desktop loaded without running apps
 
 Use cases
-* 2.5W - wget download has finished, closing firefox
-* 3.5W - running a wget download
-* 4.5W - additionally starting firefox using three tabs
-* 5.5W - watching youtube fhd full screen
+* 2.5W - baseline
+* 3.5W - plus running a wget download
+* 4.5W - plus firefox using three tabs
+* 5.5W - plus watching youtube fhd full screen
 
 ## Sources
 
