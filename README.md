@@ -51,6 +51,8 @@ Scenario
 * mate desktop loaded without running apps
 
 Use cases
+* ?.?W - S3deep sleep mode (patched DSDT)
+* 2.0W - S2idle/S3idle sleep mode (probably buggy) 
 * 2.5W - baseline
 * 3.5W - plus running a wget download
 * 4.5W - plus firefox using three tabs
